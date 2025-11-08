@@ -1,0 +1,178 @@
+@media (max-width: 809px) {
+  body {
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .hero-container {
+    padding: 5px;
+  }
+  
+  .hero-image {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 350px;
+      height: 340px;
+      border-radius: 12px;
+    }
+  }
+
+  .status-container {
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+  }
+
+  .active-status {
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-green);
+    width: 60%;
+    gap: 3px;
+    border-radius: 20px;
+  }
+
+  .icon img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .text p {
+    position: relative;
+    top: 1.5px;
+    margin: 0;
+    font-size: 11px;
+    font-family: var(--primary-font);
+    color: var(--dark-green);
+  }
+
+  .links-info {
+    display: flex;
+    position: relative;
+    top: 5px;
+  }
+
+  .link-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+  }
+  
+  .introduction-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .greetings-text h1 {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .about-message p {
+    font-family: var(--primary-font);
+    font-size: 12px;
+    color: var(--gray);
+    width: auto;
+  }
+
+  .location {
+    display: flex;
+    gap: 7px;
+    margin: 10px 0 -20px 0;
+    justify-content: center;
+  }
+
+  .location-icon img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .location-text p {
+    position: relative;
+    bottom: 12px;
+    font-family: var(--primary-font);
+    font-size: 12px;
+    color: var(--gray);
+  }
+
+  .more-hero-details {
+    display: flex;
+    padding: 5px;
+    width: auto;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 10px;
+    box-shadow: var(--primary-box-shadow);
+    margin-top: 30px;
+    position: relative;
+    right: 40px;
+  }
+
+  .more-hero-details .button {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-family: var(--primary-font);
+    font-size: 12px;
+  }
+
+  .more-hero-details .right-arrow img {
+    width: 17px;
+    height: 18px;
+  }
+
+  .aboutme-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .aboutme-section p {
+    margin: 0;
+    font-family: var(--primary-font);
+    font-size: 12px;
+    color: var(--gray);
+    white-space: normal;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-image img {
+    width: 300px;
+    height: 290px;
+    border-radius: 12px;
+  }
+
+  .greetings-text h1 {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 412px) {
+  .hero-image img {
+    width: 320px;
+    height: 310px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .greetings-text h1 {
+    font-size: 26px;
+    white-space: normal;
+  }
+
+  .hero-image img {
+    width: 290px;
+    height: 280px;
+    border: 12px;
+  }
+}

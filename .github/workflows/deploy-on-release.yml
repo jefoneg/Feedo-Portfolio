@@ -1,0 +1,15 @@
+name: Deploy on GitHub Release
+
+on:
+  release:
+    types: [published] # Triggers the workflow ONLY when a new release is published
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify Build Hook
+        # This step uses the 'curl' command to send a POST request 
+        # to your Netlify URL, initiating a new build.
+        run: |
+          curl -X POST -d {} https://api.netlify.com/build_hooks/69107810a2f26a9e4f5465f9

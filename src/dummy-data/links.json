@@ -1,0 +1,37 @@
+[
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/jefone-gorme-678266258/",
+    "icon": "https://img.icons8.com/?size=100&id=447&format=png&color=000000"
+  },
+  {
+    "name": "Github",
+    "url": "https://github.com/jefoneg",
+    "icon": "https://img.icons8.com/?size=100&id=v551nqGeHhGn&format=png&color=000000"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/jefoneg/",
+    "icon": "https://img.icons8.com/?size=100&id=wrwXlOVAFfeY&format=png&color=000000"
+  },
+  {
+    "name": "Gmail",
+    "url": "mailto:jefonegorme@gmail.com",
+    "icon": "https://img.icons8.com/?size=100&id=38158&format=png&color=000000"
+  },
+  {
+    "name": "ActiveStatus",
+    "url": "https://www.instagram.com/jefoneg/",
+    "icon": "https://img.icons8.com/?size=100&id=hSJflO74wqOE&format=png&color=40C057"
+  },
+  {
+    "name": "Location",
+    "url": "",
+    "icon": "https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000"
+  },
+  {
+    "name": "RightArrow",
+    "url": "",
+    "icon": "https://img.icons8.com/?size=100&id=J1Ad3OTYKrUB&format=png&color=000000"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Tech Stack",
+    "stack": [
+      {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/?size=100&id=cHBUT9SmrD2V&format=png&color=000000"
+      },
+      {
+        "name": "Angular",
+        "icon": "https://img.icons8.com/?size=100&id=undefined&format=png&color=000000"
+      },
+      {
+        "name": "Restful API",
+        "icon": "https://img.icons8.com/?size=100&id=cqglNA45D95u&format=png&color=000000"
+      },
+      {
+        "name": "React",
+        "icon": "https://img.icons8.com/?size=100&id=122637&format=png&color=000000"
+      },
+      {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/?size=100&id=39856&format=png&color=000000"
+      },
+      {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/?size=100&id=undefined&format=png&color=000000"
+      },
+      {
+        "name": "TailwindCSS",
+        "icon": "https://img.icons8.com/?size=100&id=undefined&format=png&color=000000"
+      },
+      {
+        "name": "Less",
+        "icon": "https://img.icons8.com/?size=100&id=Jv4b1C1B-9Q4&format=png&color=000000"
+      }
+    ]
+  }
+]
