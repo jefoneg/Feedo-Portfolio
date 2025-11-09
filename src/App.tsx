@@ -32,10 +32,11 @@ function useWindowSize() {
  * @returns   {JSX.Element}   The `App` component.
  */
 function App() {
+  //temporary
   const size = useWindowSize();
 
   if (810 < size.width) {
-    return <div>Please use mobile</div>
+    return <div>Please use mobile</div>;
   }
 
   return (
