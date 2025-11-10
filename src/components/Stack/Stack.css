@@ -1,0 +1,33 @@
+@media (max-width: 809px) {
+  .stacks-text h2 {
+  font-family: var(--primary-font);
+  color: var(--dark-blue);
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+
+  .content-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stacks-image {
+    display: flex;
+    align-items: center;
+  }
+
+  .stacks-content {
+    display: flex;
+    outline: 1px solid red;
+    padding: 0px 20px;
+    gap: 20px;
+  }
+
+  .stacks-image img {
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -5,6 +5,7 @@ import linksData from "../../dummy-data/links.json";
 import getLink from "../../services/link-service";
 import icon from "../../assets/images/icon.jpg";
 import "./Hero.css";
+import useWindowSize from "../../services/window-size-service";
 
 /**
  * The `Hero` component to be rendered.
@@ -15,8 +16,12 @@ function Hero() {
   const activeStatus = getLink(CommonConstant.STRINGS.ACTIVE_STATUS, linksData);
   const location = getLink(CommonConstant.STRINGS.LOCATION, linksData);
   // const rightArrow = getLink(CommonConstant.STRINGS.RIGHT_ARROW, links);
+  const currentWindowSizeWidth =
+    useWindowSize()?.width || CommonConstant.NUMERIC.ZERO;
 
-  return (
+  return CommonConstant.RESOLUTION.DESKTOP < currentWindowSizeWidth ? (
+    <div>Hello World</div>
+  ) : (
     <div className="hero-container">
       <div className="hero-image">
         <img src={icon} alt="hero-image" />

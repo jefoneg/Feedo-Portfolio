@@ -12,8 +12,23 @@ export default class CommonConstant {
       I bring hands-on expertise in modern web technologies, particularly PHP, Angular, React, Next.js, JavaScript, and TypeScript.
       My approach blends clean architecture, performance optimization,
       and user-focused design to build applications that are both scalable and intuitive.`,
+    STACK: "Stack"
   }
+
   public static readonly HERO_DATA = {
     LOCATION: "Cebu City, Philippines"
+  }
+
+  public static readonly EVENT_LISTENER = {
+    RESIZE: "resize",
+    DEBOUNCE_DELAY_MS: 250
+  }
+
+  public static RESOLUTION = {
+    DESKTOP: 810
+  }
+
+  public static readonly NUMERIC = {
+    ZERO: 0
   }
 }

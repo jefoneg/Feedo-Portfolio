@@ -1,10 +1,4 @@
 @media (max-width: 809px) {
-  body {
-    padding: 20px;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
   .hero-container {
     padding: 5px;
   }
